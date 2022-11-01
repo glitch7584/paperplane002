@@ -70,6 +70,6 @@ function appendMessage(data, status) {
     chats.appendChild(div);
     chats.scrollTop = chats.scrollHeight;
 }
-// socket.on('message', (data) => {
-//     appendMessage(data, 'incoming');
-// })
+socket.on('message', (data) => {
+    appendMessage(data, 'incoming');
+})
