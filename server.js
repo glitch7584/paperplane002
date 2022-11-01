@@ -37,6 +37,6 @@ io.on("connection", (socket) => {
 });
 
 
-// server.listen(port, () => {
-//     console.log("no error :>");
-// });
+server.listen(port, () => {
+    // console.log("no error :>");
+});
